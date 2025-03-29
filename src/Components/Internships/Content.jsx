@@ -1,5 +1,5 @@
 import React from 'react'
-import "./COntent.css"
+import "./Content.css"
 import image1 from "../../../public/assets/image (1).svg"
 import image2 from "../../../public/assets/image.svg"
 
