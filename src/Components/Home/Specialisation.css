@@ -1,0 +1,45 @@
+#Specialisation .container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+}
+#Specialisation button.active {
+  background-color: #007bff;
+  border: #007bff;
+  color: white;
+}
+#Specialisation button:hover {
+  background-color: #007bff;
+  border: #007bff;
+  color: white;
+}
+#Specialisation img {
+  min-width: 80%;
+  max-height: 500px;
+  border-radius: 12px;
+}
+#Specialisation .description {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  #Specialisation .col-12 {
+    flex: 0 0 70%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Specialisation .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  #Specialisation .col-lg-2 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}

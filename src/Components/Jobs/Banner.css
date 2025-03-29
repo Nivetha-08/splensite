@@ -1,0 +1,10 @@
+#Jobs .sub-content{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+    #Jobs .content{
+        text-align: justify !important;
+        /* background-color: antiquewhite; */
+    }
+}

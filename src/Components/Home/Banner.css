@@ -1,0 +1,44 @@
+#Home-Banner .heading {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#Home-Banner .subHeading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#Home-Banner .content {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  text-align: center;
+  max-width: 80vh;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #Home-Banner .heading {
+    font-size: 40px;
+  }
+
+  #Home-Banner .subHeading {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #Home-Banner .heading {
+    font-size: 30px;
+  } 
+
+  #Home-Banner .subHeading {
+    font-size: 25px;
+  }
+
+  #Home-Banner .content {
+    text-align: justify;
+  }
+}

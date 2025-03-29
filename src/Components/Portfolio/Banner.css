@@ -1,0 +1,44 @@
+#Portfolio-Banner .heading {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+#Portfolio-Banner .subHeading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#Portfolio-Banner .content{
+  text-transform: capitalize;
+  text-align: center;
+  max-width: 80vh;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #Portfolio-Banner .heading {
+    font-size: 40px; 
+  }
+
+  #Portfolio-Banner .subHeading {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #Portfolio-Banner .heading {
+    font-size: 30px; 
+  }
+
+  #Portfolio-Banner .subHeading {
+    font-size: 25px;
+  }
+  #Portfolio-Banner .content {
+    text-align: justify !important ;
+    /* background-color: antiquewhite; */
+  }
+
+}

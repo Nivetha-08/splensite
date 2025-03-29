@@ -1,0 +1,8 @@
+#Jobs-Content .para1{
+    font-weight: bolder;
+}
+
+#Jobs-Content .para1, .para2{
+    line-height: 30px;
+    font-size: 18px;
+}
