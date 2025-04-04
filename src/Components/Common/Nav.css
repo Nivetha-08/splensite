@@ -1,26 +1,28 @@
 @media (min-width: 1000px) {
-  #Nav .dropdown-menu {
+  #Navbar .dropdown-menu {
     display: none !important;
   }
 
-  #Nav .dropdown:hover .dropdown-menu {
+  #Navbar .dropdown:hover .dropdown-menu {
     display: block !important;
   }
 }
 
-#Nav .nav-link.active {
+#Navbar .nav-link.active {
   font-weight: bolder !important;
 }
 
-#Nav .dropdown-menu a:hover{
+#Navbar .dropdown-menu a:hover{
   background: #0d6efd;
-  /* border-radius: 20px; */
   color: white;
 }
 
-#Nav a.dropdown-item.active{
+#Navbar a.dropdown-item.active{
   background: #0d6efd;
-  /* border-radius: 20px; */
   color: white;
   font-weight: bolder;
 }
+
+
+
+

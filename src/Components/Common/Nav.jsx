@@ -1,19 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./Nav.css"
+import { NavLink, Link } from "react-router-dom";
 import { PiCardsThreeFill } from "react-icons/pi";
 import logo from "../../../public/assets/logo.svg"
+import "./Nav.css"
 
 const Nav = () => {
   // console.log("Nav render");
 
   return (
     <>
-      <section id="Nav">
+      <section id="Navbar">
         <nav className="navbar navbar-expand-md bg-primary text-dark">
           <div className="container-fluid">
             <a className="navbar-brand text-white" href="#">
-              {/* Splendenslab */}
               <img src={logo} alt="comapany logo" />
             </a>
             <button
@@ -25,7 +24,6 @@ const Nav = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              {/* <span className="navbar-toggler-icon"></span> */}
               <span className="text-white"><PiCardsThreeFill /></span>
             </button>
             <div
@@ -49,6 +47,41 @@ const Nav = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item dropdown">
+                  <button
+                    className="btn nav-link dropdown-toggle text-white"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Careers
+                  </button>
+                  <ul className="dropdown-menu ">
+                    <li>
+                      <NavLink to="/jobs" className="dropdown-item">Jobs</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/internships" className="dropdown-item">Internships</NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/contact" className="nav-link text-white">
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </>
+  );
+};
+
+export default Nav;
+
+/* 
+                  <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle text-white"
                     href="#"
@@ -71,18 +104,4 @@ const Nav = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item">
-                  <NavLink to="/contact" className="nav-link text-white">
-                    Contact
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </section>
-    </>
-  );
-};
-
-export default Nav;
+*/

@@ -96,7 +96,7 @@ const MicroApplication = () => {
                     style={{ height: "300px", objectFit: "contain" }}
                   />
                 </div>
-                <p className="text-muted ps-3">{v.subheading}</p>
+                <p className="text-black text-center p-2">{v.subheading}</p>
               </NavLink>
             </div>
           ))}

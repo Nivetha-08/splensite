@@ -45,6 +45,7 @@ function App() {
         <Route path="/internships" element={<InternshipsPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>
+
     </>
   );
 }

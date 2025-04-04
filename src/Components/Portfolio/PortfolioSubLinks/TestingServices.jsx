@@ -71,9 +71,9 @@ const TestingServices = () => {
           title: "Testing Service",
           subheading: "Streamline, Analyze and Optimize Your Marketing Efforts In One Dashboard",
           content1:
-            "The Digital Marketing Dashboard is an all-in-one tool designed to help businesses efficiently manage and optimize their marketing campaigns. With features such as real-time campaign tracking, advanced analytics, and user insights, the dashboard enables marketers to monitor performance across multiple channels, including social media, paid ads, and email campaigns. It allows businesses to track key metrics like conversions, cost-per-acquisition, and click-through rates while offering valuable insights into user behavior and engagement. The dashboard also includes seamless payment method integration for managing campaign budgets, along with payment history tracking to keep track of all transactions related to marketing spend.",
+            "We offer a robust suite of testing services designed to guarantee the highest quality and performance of your digital solutions. Our services are powered by a state-of-the-art dashboard, providing a centralized view of all testing activities. This dashboard allows clients to easily access an organized list of ongoing and completed testing campaigns, offering full visibility and control over the entire testing process. Each campaign list includes detailed insights into specific objectives and outcomes, helping teams monitor performance in real time. The content section within the dashboard displays all relevant materials and test cases used, making it easier to track and analyze test results.",
           content2:
-            "In addition to campaign management and financial tracking, the dashboard also features ads placement management for cross-platform ad optimization, ensuring ads are placed effectively across various channels such as Google Ads and Facebook. Marketers can easily export data and generate customizable reports, making it simple to share performance insights with stakeholders. With its user-friendly interface and powerful features, the Digital Marketing Dashboard empowers businesses to make data-driven decisions, optimize marketing strategies, and ultimately drive better results and ROI.",
+            "Additionally, the brand feature allows businesses to monitor how their brands perform across various campaigns, ensuring their digital solutions align with branding objectives and resonate with the target audience. To further empower our clients, the data lab functionality offers deep analytics, enabling users to explore and interpret data more effectively. This allows for actionable insights that can be used to optimize future testing strategies, improve system performance, and enhance user experiences. Our testing services, backed by this comprehensive dashboard, provide businesses with the tools and insights needed to maintain high-quality, effective digital solutions.",
         },
   ]
 
@@ -96,7 +96,7 @@ const TestingServices = () => {
                     style={{ height: "300px", objectFit: "contain" }}
                   />
                 </div>
-                <p className="text-muted ps-3">{v.subheading}</p>
+                <p className="text-black text-center p-2">{v.subheading}</p>
               </NavLink>
             </div>
           ))}

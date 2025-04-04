@@ -1,0 +1,10 @@
+#pf div:has(img){
+    overflow: hidden;
+}
+#pf img{
+    transition: transform 0.3s ease;
+}
+#pf img:hover{
+    transform: scale(1.2);
+} 
+

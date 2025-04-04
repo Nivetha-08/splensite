@@ -72,6 +72,20 @@ import testing3 from "../../../../public/assets/testing3.png";
 import uiux1 from "../../../../public/assets/uiux1.png";
 import uiux2 from "../../../../public/assets/uiux2.png";
 import uiux3 from "../../../../public/assets/uiux3.png";
+import uiux4 from "../../../../public/assets/uiux4.png";
+import uiux5 from "../../../../public/assets/uiux5.png";
+import figma from "../../../../public/assets/figma.png";
+import photoshop from "../../../../public/assets/photoshop.png";
+import xd from "../../../../public/assets/xd.png";
+import illustrator from "../../../../public/assets/illustrator.png";
+import indesign from "../../../../public/assets/indesign.png";
+import sketch from "../../../../public/assets/sketch.png";
+import html from "../../../../public/assets/html.png";
+import css from "../../../../public/assets/css.png";
+import js from "../../../../public/assets/js.png";
+import angular from "../../../../public/assets/angular.png";
+import react from "../../../../public/assets/react.png";
+import github from "../../../../public/assets/github.png";
 
 const Index = () => {
   const arrob = [
@@ -87,7 +101,7 @@ const Index = () => {
       content2:
         "One of the key features of SgGrocer is its commitment to providing customers with value through regular deals and promotions. Additionally, the reorder function allows you to quickly purchase your most frequently bought items, making your shopping experience even more efficient and time-saving.",
       content3:
-        "SgGrocer is designed to cater to the needs of busy individuals and families, offering a seamless shopping experience from start to finish. The app’s intuitive interface ensures that you can easily navigate through different categories, find your preferred products, and have them delivered directly to your door with just a few taps. Whether you're looking for fresh, locally sourced produce or your favorite bakery treats, SgGrocer delivers a hassle-free, reliable solution for all your grocery needs."
+        "SgGrocer is designed to cater to the needs of busy individuals and families, offering a seamless shopping experience from start to finish. The app’s intuitive interface ensures that you can easily navigate through different categories, find your preferred products, and have them delivered directly to your door with just a few taps. Whether you're looking for fresh, locally sourced produce or your favorite bakery treats, SgGrocer delivers a hassle-free, reliable solution for all your grocery needs.",
     },
     {
       id: 2,
@@ -107,7 +121,8 @@ const Index = () => {
       img2: micro2,
       img3: micro3,
       title: "Micro Application",
-      subheading: "Micro Application All In One Dashboard for Project Management and Scheduling",
+      subheading:
+        "Micro Application All In One Dashboard for Project Management and Scheduling",
       content1:
         "Our microapplication offers a comprehensive dashboard that seamlessly integrates project management, calendar scheduling, resource organization, and settings customization. The dashboard serves as a centralized hub for monitoring project progress, setting milestones, and ensuring timely task completion. The project module enables users to define objectives, allocate resources, and track deliverables efficiently. Integrated calendar functionality allows for precise scheduling of tasks and events, with options to customize work hours and define non-working days. The resource section facilitates effective management by organizing materials and assets, ensuring easy access and optimal utilization.",
       content2:
@@ -118,12 +133,75 @@ const Index = () => {
       img1: uiux1,
       img2: uiux2,
       img3: uiux3,
+      img4: uiux4,
+      img5: uiux5,
       title: "UI/UX Design and Development",
-      subheading: "Designing Meaningful Digital Products and Experience For You",
+      subheading:
+        "Designing Meaningful Digital Products and Experience For You",
       content1:
-        "Our microapplication offers a comprehensive dashboard that seamlessly integrates project management, calendar scheduling, resource organization, and settings customization. The dashboard serves as a centralized hub for monitoring project progress, setting milestones, and ensuring timely task completion. The project module enables users to define objectives, allocate resources, and track deliverables efficiently. Integrated calendar functionality allows for precise scheduling of tasks and events, with options to customize work hours and define non-working days. The resource section facilitates effective management by organizing materials and assets, ensuring easy access and optimal utilization.",
-      content2:
-        "Additionally, the settings module empowers users to personalize the application interface, configure preferences, and manage security settings, ensuring a tailored and secure user experience. This unified approach streamlines workflow, enhances productivity, and adapts to the unique needs of each user.",
+        "In the ever-evolving digital landscape, user experience (UX) and user interface (UI) design have become paramount for businesses aiming to create exceptional digital products. In India, where technology is thriving, numerous companies offer UI/UX design services. Among them, Concept Infoway stands out as a leading UI/UX design company, combining creativity, expertise, and a deep understanding of user behavior to deliver captivating and intuitive experiences.",
+      title2: "Leading Web & Mobile APP Design Company",
+      subheading2: "With Our Expertise We Can Deliver",
+      title3: "Tools and Technologies",
+      subheading3:
+        "We Leverage The Latest Design And Development Tools To Craft Stunning User Experiences With Exceptional Functionality",
+      title4: "Our Design & Development Process",
+      subheading4:
+        "We work in smaller phases, gather feedback at each, and iterate on our ideas. This is our proven method for creating world-class products, that convert and win hearts.",
+      tools1: "Design Tools",
+      tools2: "Development Tools",
+      tool: [
+        {
+          img: figma,
+          title: "Figma",
+        },
+        {
+          img: photoshop,
+          title: "Adobe Photoshop",
+        },
+        {
+          img: xd,
+          title: "Adobe XD",
+        },
+        {
+          img: illustrator,
+          title: "Adobe Illustrator",
+        },
+        {
+          img: indesign,
+          title: "Adobe Indesgn",
+        },
+        {
+          img: sketch,
+          title: "Sketch",
+        },
+      ],
+      tools: [
+        {
+          img: html,
+          title: "HTML",
+        },
+        {
+          img: css,
+          title: "CSS",
+        },
+        {
+          img: js,
+          title: "JavaScript",
+        },
+        {
+          img: angular,
+          title: "Angular",
+        },
+        {
+          img: react,
+          title: "React",
+        },
+        {
+          img: github,
+          title: "GitHub",
+        },
+      ],
     },
     {
       id: 5,
@@ -131,7 +209,8 @@ const Index = () => {
       img2: digital2,
       img3: digital3,
       title: "Digital Marketing",
-      subheading: "Streamline, Analyze and Optimize Your Marketing Efforts In One Dashboard",
+      subheading:
+        "Streamline, Analyze and Optimize Your Marketing Efforts In One Dashboard",
       content1:
         "The Digital Marketing Dashboard is an all-in-one tool designed to help businesses efficiently manage and optimize their marketing campaigns. With features such as real-time campaign tracking, advanced analytics, and user insights, the dashboard enables marketers to monitor performance across multiple channels, including social media, paid ads, and email campaigns. It allows businesses to track key metrics like conversions, cost-per-acquisition, and click-through rates while offering valuable insights into user behavior and engagement. The dashboard also includes seamless payment method integration for managing campaign budgets, along with payment history tracking to keep track of all transactions related to marketing spend.",
       content2:
@@ -143,11 +222,12 @@ const Index = () => {
       img2: testing2,
       img3: testing3,
       title: "Testing Service",
-      subheading: "Streamline, Analyze and Optimize Your Marketing Efforts In One Dashboard",
+      subheading:
+        "Streamline, Analyze and Optimize Your Marketing Efforts In One Dashboard",
       content1:
-        "The Digital Marketing Dashboard is an all-in-one tool designed to help businesses efficiently manage and optimize their marketing campaigns. With features such as real-time campaign tracking, advanced analytics, and user insights, the dashboard enables marketers to monitor performance across multiple channels, including social media, paid ads, and email campaigns. It allows businesses to track key metrics like conversions, cost-per-acquisition, and click-through rates while offering valuable insights into user behavior and engagement. The dashboard also includes seamless payment method integration for managing campaign budgets, along with payment history tracking to keep track of all transactions related to marketing spend.",
+        "We offer a robust suite of testing services designed to guarantee the highest quality and performance of your digital solutions. Our services are powered by a state-of-the-art dashboard, providing a centralized view of all testing activities. This dashboard allows clients to easily access an organized list of ongoing and completed testing campaigns, offering full visibility and control over the entire testing process. Each campaign list includes detailed insights into specific objectives and outcomes, helping teams monitor performance in real time. The content section within the dashboard displays all relevant materials and test cases used, making it easier to track and analyze test results.",
       content2:
-        "In addition to campaign management and financial tracking, the dashboard also features ads placement management for cross-platform ad optimization, ensuring ads are placed effectively across various channels such as Google Ads and Facebook. Marketers can easily export data and generate customizable reports, making it simple to share performance insights with stakeholders. With its user-friendly interface and powerful features, the Digital Marketing Dashboard empowers businesses to make data-driven decisions, optimize marketing strategies, and ultimately drive better results and ROI.",
+        "Additionally, the brand feature allows businesses to monitor how their brands perform across various campaigns, ensuring their digital solutions align with branding objectives and resonate with the target audience. To further empower our clients, the data lab functionality offers deep analytics, enabling users to explore and interpret data more effectively. This allows for actionable insights that can be used to optimize future testing strategies, improve system performance, and enhance user experiences. Our testing services, backed by this comprehensive dashboard, provide businesses with the tools and insights needed to maintain high-quality, effective digital solutions.",
     },
   ];
 
@@ -172,7 +252,7 @@ const Index = () => {
                     style={{ height: "300px", objectFit: "contain" }}
                   />
                 </div>
-                <p className="text-muted ps-3">{v.title}</p>
+                <p className="text-center text-black p-2">{v.title}</p>
               </NavLink>
             </div>
           ))}

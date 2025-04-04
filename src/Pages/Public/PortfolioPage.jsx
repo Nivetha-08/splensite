@@ -2,7 +2,7 @@ import Footer from "../../Components/Common/Footer";
 import Banner from "../../Components/Portfolio/Banner";
 import Links from "../../Components/Portfolio/Links";
 import { Outlet } from "react-router";
-import Nav from "../../Components/Common/Nav";
+import Nav from "../../Components/Common/Nav.jsx";
 
 const URL = `https://fakestoreapi.com/products`;
 
@@ -12,10 +12,12 @@ const PortfolioPage = () => {
   return (
     <>
       <Nav />
-      <Banner />
-      <Links />
-      <Outlet />
-      <Footer />
+      <div id="pf">
+        <Banner />
+        <Links />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 };

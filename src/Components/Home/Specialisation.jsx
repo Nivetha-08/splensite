@@ -67,7 +67,7 @@ const Specialisation = () => {
               className="col-12 col-md-6 col-lg-2 mb-2 d-flex justify-content-center"
             >
               <button
-                className={`btn btn-outline-dark w-100 ${
+                className={`btn btn-outline-dark text-muted w-100 ${
                   selected.id === item.id ? "active" : ""
                 }`}
                 onClick={() => setSelected(item)}

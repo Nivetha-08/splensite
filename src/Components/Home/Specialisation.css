@@ -6,12 +6,12 @@
 #Specialisation button.active {
   background-color: #007bff;
   border: #007bff;
-  color: white;
+  color: white !important;
 }
 #Specialisation button:hover {
   background-color: #007bff;
   border: #007bff;
-  color: white;
+  color: white !important;
 }
 #Specialisation img {
   min-width: 80%;

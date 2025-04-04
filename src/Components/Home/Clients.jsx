@@ -16,16 +16,16 @@ const Clients = () => {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
         // breakpoint: 1024,
         breakpoint: 1025,
         settings: {
           slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
         },
       },
     ],
@@ -102,7 +102,7 @@ const Clients = () => {
                 background: "white",
                 borderRadius: "50%",
                 fontSize: "15px",
-                padding: "10px 13px 10px 13px",
+                padding: "7px 13px 10px 11px",
               }}
               className="nav-btn"
               onClick={() => sliderRef.current.slickPrev()}
@@ -117,7 +117,7 @@ const Clients = () => {
                 background: "white",
                 borderRadius: "50%",
                 fontSize: "15px",
-                padding: "10px 13px 10px 13px",
+                padding: "7px 11px 10px 13px",
                 marginLeft: "20px",
               }}
               className="nav-btn"
