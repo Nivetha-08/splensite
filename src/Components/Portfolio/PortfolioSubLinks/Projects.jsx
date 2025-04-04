@@ -110,7 +110,7 @@ const Projects = () => {
             <div className="row pb-5">
               {product?.tool?.map((val, i) => (
                 <div className="col-6 col-md-4 col-xl-2 text-center pb-3" key={i} >
-                  <div className="d-inline-block p-3" style={{background: 'rgba(13, 131, 253, 0.13)'}}>
+                  <div className="d-inline-block p-3" style={{background: 'rgba(13, 131, 253, 0.13)', minWidth:"167px"}}>
                     <img src={val.img} alt="tool" />
                     <p className="text-primary h6 pt-2">{val.title}</p>
                   </div>
@@ -127,7 +127,7 @@ const Projects = () => {
             <div className="row pb-5">
               {product?.tools?.map((val, i) => (
                 <div className="col-6 col-md-4 col-xl-2 text-center pb-3" key={i} >
-                  <div className="d-inline-block p-3" style={{background: 'rgba(13, 131, 253, 0.13)'}}>
+                  <div className="d-inline-block p-3" style={{background: 'rgba(13, 131, 253, 0.13)', minWidth:"167px"}}>
                     <img src={val.img} alt="tools" />
                     <p className="text-primary h6 pt-2">{val.title}</p>
                   </div>
