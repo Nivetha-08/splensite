@@ -92,7 +92,7 @@ const Projects = () => {
           </div>
 
           <div>
-            <img src={product.img3} alt="img" className="img-fluid w-100" />
+            <img src={product.img3} alt="img" className="img-fluid w-100"  />
           </div>
 
           <div className="text-center p-5">

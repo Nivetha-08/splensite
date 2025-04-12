@@ -68,7 +68,7 @@ const Clients = () => {
     <section id="Clients-Section">
       <div className="clients-container">
         <h1 className="text-center heading">What Our Clients Say</h1>
-        <p className="content py-3 px-5">
+        <p className="content py-3 px-2">
           Our clients love sharing their experiences with us. their feedback
           inspiresus to keep delivering excellence
         </p>

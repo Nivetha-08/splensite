@@ -6,10 +6,10 @@ const Banner = () => {
 
   return (
     <>
-      <section id="Home-Banner" className="p-5">
+      <section id="Home-Banner" className="pt-5">
         <p className="text-primary heading">Mobile And Web Applications</p>
         <p className="subHeading">Design & Development</p>
-        <p className="pt-3 content">
+        <p className="pt-3 px-2 content">
           we design, develop, and deliver scalable web apps using industry best
           practices for top performance and user experence. our device-agnostic
           solutions work seamlessly across platforms. we use flutter, react

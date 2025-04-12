@@ -58,7 +58,7 @@ const Specialisation = () => {
 
   return (
     <div>
-      <div id="Specialisation" className="container py-5">
+      <div id="Specialisation" className="py-5">
         <h1 className="text-center mb-5">Our Specialization</h1>
         <div className="row justify-content-center mb-4">
           {data.map((item) => (
@@ -86,7 +86,7 @@ const Specialisation = () => {
             className="img-fluid rounded"
           />
           <h6 className="mt-4">{selected.title}</h6>
-          <p className="description p-sm-2 mb-5">{selected.description}</p>
+          <p className="description p-0 mb-5">{selected.description}</p>
         </div>
       </div>
     </div>

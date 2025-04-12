@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <>
       <section id="Jobs">
-        <div className="p-5 text-center">
+        <div className="pt-5 text-center">
           <h1 className="text-primary">Careers at Splendenslab</h1>
           <h5 className="p-3">Careers</h5>
 
@@ -25,7 +25,7 @@ const Banner = () => {
           alt="Banner Image"
           className="img-fluid d-flex mx-auto p-sm-0"
         />
-        <div className="text-center p-5">
+        <div className="text-center pt-5">
           <h1 className="text-primary">Web App Developer</h1>
           <p className="p-3 sub-content content">
             We are looking skilled Web Developer who will responsible for

@@ -9,12 +9,12 @@ const Banner = () => {
   return (
     <>
       <section id="Internships">
-        <div className="p-5">
+        <div className="pt-5">
           <div className="text-center">
             <h1 className="text-primary">Carrers at Splendenslab</h1>
             <h5 className="p-3">INTERNSHIPS</h5>
           </div>
-          <p className="text-center sub-content content">
+          <p className="text-center sub-content content px-2">
             We are looking for young and talented IT professionals like you -
             join us, grow with us and become a part of our success story
           </p>
@@ -26,11 +26,11 @@ const Banner = () => {
             className="img-fluid d-flex mx-auto px-2"
           />
         </div>
-        <div className="p-5">
+        <div className="pt-5">
           <h1 className="text-primary text-center pb-3">
             Become Our Next Rising Star
           </h1>
-          <p className="w-75% text-center pt-2 sub-content content">
+          <p className="w-75% text-center pt-2 sub-content content px-2 pb-3">
             If you are ambitious, intellectually curious and able to learn
             quickly, we are willing to support you in efforts to develop your
             potential, we are looking for an individual who is:
