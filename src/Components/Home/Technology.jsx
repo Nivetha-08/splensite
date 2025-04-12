@@ -9,7 +9,7 @@ import react from "../../../public/assets/image 1959.svg";
 import angular from "../../../public/assets/image 1960.svg";
 import javascript from "../../../public/assets/image 1961.svg";
 import materialui from "../../../public/assets/image 1962.svg";
-import "./Technology.css"
+// import "./Technology.css"
 
 const Technology = () => {
   // console.log("Home Technology rendered");
@@ -43,7 +43,7 @@ const Technology = () => {
     <>
       <section id="Technology-Section" className="pb-md-5 p-0">
         <h1 className="text-center">Technology</h1>
-        <p className="content pt-3">
+        <p className="content w-sm-95 w-md-30 text-center pt-3">
           We create and deliver custom solutions of high aesthetical and
           engineering quality using the following technologies and frameworks.
         </p>

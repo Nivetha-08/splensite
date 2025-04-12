@@ -8,7 +8,7 @@ const Content = () => {
   
   return (
     <>
-      <section id='Content' className='py-5'>
+      <section id='Content' className='pt-5'>
         <div className="row p-lg-5 p-sm-3">
           <div className="col-lg-6 px-md-5 px-sm-0 my-auto">
             <p className='para1 px-2' style={{textAlign:"justify"}}>Splendenslab thrives not just by providing outstanding quality of service to our customers, but also from atracting the best and brightest young talent</p>

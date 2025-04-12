@@ -42,4 +42,9 @@
     flex: 0 0 auto;
     width: auto;
   }
+  #Specialisation .description {
+    width: 65%;
+    margin: 0 auto;
+    text-align: justify;
+  }
 }

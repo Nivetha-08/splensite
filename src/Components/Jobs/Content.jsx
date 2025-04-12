@@ -8,7 +8,7 @@ const Content = () => {
   
   return (
     <>
-      <section id='Jobs-Content' className='py-5'>
+      <section id='Jobs-Content' className='pt-5'>
         <div className="row p-lg-5 p-sm-3">
           <div className="col-lg-6 px-md-5 px-sm-0 my-auto">
             <p className='para1 px-2' style={{textAlign:"justify"}}>As a constantly growing company we are looking for passionate individuals who will join our team and use that opportunity to develop their potential.</p>

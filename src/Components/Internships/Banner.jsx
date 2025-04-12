@@ -14,7 +14,7 @@ const Banner = () => {
             <h1 className="text-primary">Carrers at Splendenslab</h1>
             <h5 className="p-3">INTERNSHIPS</h5>
           </div>
-          <p className="text-center sub-content content px-2">
+          <p className="text-center sub-content content px-2 pb-3">
             We are looking for young and talented IT professionals like you -
             join us, grow with us and become a part of our success story
           </p>
